@@ -1,4 +1,5 @@
-📖 Gerador de Homilias com Inteligência Artificial  
+📖 GERADOR DE HOMILIAS COM INTELIGÊNCIA ARTIFICIAL
+---
 Sistema inteligente que gera **homilias personalizadas** com base na **data da missa**. Ideal para padres, seminaristas e agentes pastorais que desejam preparar reflexões inspiradoras de forma rápida e eficiente.
 
 ---
@@ -30,11 +31,11 @@ Sistema inteligente que gera **homilias personalizadas** com base na **data da m
 
 Você pode testar a aplicação diretamente na Vercel clicando no botão abaixo:  
 
-[![Testar na Vercel](https://img.shields.io/badge/Testar%20na%20Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://gerador-homilias.vercel.app/)  
+[![Testar na Vercel](https://img.shields.io/badge/Testar%20na%20Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://homilia-front.vercel.app/)  
 
 Se o botão não funcionar, copie e cole o seguinte link no seu navegador:  
 
-🔗 **[https://gerador-homilias.vercel.app/](https://gerador-homilias.vercel.app/)**  
+🔗 **[https://gerador-homilias.vercel.app/](https://homilia-front.vercel.app/)**  
 
 ---
 
