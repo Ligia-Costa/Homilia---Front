@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Chat (mantém igual ao seu)
+  // Chatbot
   const abrirChat = document.getElementById("abrir-chat");
   const fecharChat = document.getElementById("fechar-chat");
   const chatBox = document.getElementById("chatbox");
