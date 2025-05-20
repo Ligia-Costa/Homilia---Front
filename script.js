@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     try {
       const dataFormatada = data.split("-").reverse().join("/");
-      const resposta = await fetch("http://127.0.0.1:5000/homilia", {
+      const resposta = await fetch("https://homilia-back.vercel.app/homilia", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ data: dataFormatada }),
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
     adicionarMensagem("Assistente", "⏳ Pensando...");
 
     try {
-      const resp = await fetch("http://127.0.0.1:5000/chat", {
+      const resp = await fetch("https://homilia-back.vercel.app/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ pergunta }),
