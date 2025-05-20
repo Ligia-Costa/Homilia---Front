@@ -115,9 +115,22 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function limparCampos() {
-    dataInput.value = '';
-    const inputs = divdata.querySelectorAll('.data-input');
-    inputs.forEach(input => input.value = '');
-    divResultado.classList.add('hidden');
-    homilia.textContent = '';
+  const dataInput = document.getElementById("data");
+  const resultado = document.getElementById("resultado");
+  const titulo = document.getElementById("titulo");
+  const referencia = document.getElementById("referencia");
+  const tema = document.getElementById("tema");
+  const pontos = document.getElementById("pontos");
+  const aplicacoes = document.getElementById("aplicacoes");
+
+  dataInput.value = '';
+  resultado.classList.add("hidden");
+  titulo.textContent = '';
+  referencia.textContent = '';
+  tema.textContent = '';
+  pontos.innerHTML = '';
+  aplicacoes.innerHTML = '';
 }
+
+const limparBtn = document.getElementById("limpar-btn");
+limparBtn.addEventListener("click", limparCampos);
