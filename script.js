@@ -113,3 +113,11 @@ document.addEventListener("DOMContentLoaded", function () {
     chatMensagens.scrollTop = chatMensagens.scrollHeight;
   }
 });
+
+function limparCampos() {
+    dataInput.value = '';
+    const inputs = divdata.querySelectorAll('.data-input');
+    inputs.forEach(input => input.value = '');
+    divResultado.classList.add('hidden');
+    homilia.textContent = '';
+}
