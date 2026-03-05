@@ -60,7 +60,7 @@ Se o botão não funcionar, copie e cole o seguinte link no seu navegador:
 ## 👩🏻‍💻 Projeto desenvolvido por
 
 **Lígia da Costa Silva**  
-Curso Técnico em Análise e Desenvolvimento de Sistemas - SENAI - 2025
+Curso Técnico em Desenvolvimento de Sistemas - SENAI - 2025
 
 ---
 
